@@ -1,0 +1,11 @@
+{
+  "discord": {
+    "prefix": "/",
+    "activity": "Verifying with Bloxlink",
+    "status": "online"
+  },
+  "verification": {
+    "stateExpiryMinutes": 10,
+    "requireEmailVerified": false
+  }
+}
