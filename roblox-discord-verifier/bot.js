@@ -166,7 +166,6 @@ client.on(Events.InteractionCreate, async (interaction) => {
     }
     return;
   }
-  }
   
   // Handle button interactions
   if (interaction.isButton()) {
