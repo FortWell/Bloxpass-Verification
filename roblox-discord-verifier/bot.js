@@ -36,7 +36,6 @@ for (const name of required) {
 }
 
 // Optional environment variables
-// Optional environment variables
 const BLOXLINK_API_KEY = process.env.BLOXLINK_API_KEY;
 const BLOXLINK_API_BASE = process.env.BLOXLINK_API_BASE || 'https://api.blox.link';
 
@@ -47,10 +46,6 @@ if (!BLOXLINK_API_KEY) {
 } else {
   console.log(`✅ Bloxlink API configured. Using endpoint: ${BLOXLINK_API_BASE}`);
 }
-
-// Optional: Bloxlink API configuration
-const BLOXLINK_API_KEY = process.env.BLOXLINK_API_KEY;
-const BLOXLINK_API_BASE = 'https://api.blox.link';
 
 // Set up database
 const db = new Database('verification.sqlite');
